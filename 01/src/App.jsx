@@ -1,12 +1,9 @@
+import { Post } from "./Post";
 
-
-
-function App() {
+export function App() {
   return (
-   <h1>sas
-
-   </h1>
-  )
+    <>
+      <Post />
+    </>
+  );
 }
-
-export default App
