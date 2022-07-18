@@ -12,7 +12,11 @@ export function App() {
         <main>
           {" "}
           <Post
-            author="frade"
+            author="Matheus Frade"
+            content="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis facilis ad laborum fugiat magnam eligendi eaque quaerat nihil, dignissimos totam veritatis! Quos quasi tenetur, at odit saepe consequuntur culpa amet."
+          />
+          <Post
+            author="Matheus Frade"
             content="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis facilis ad laborum fugiat magnam eligendi eaque quaerat nihil, dignissimos totam veritatis! Quos quasi tenetur, at odit saepe consequuntur culpa amet."
           />
         </main>

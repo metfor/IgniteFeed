@@ -1,5 +1,5 @@
 import styles from "./Post.module.css";
-export function Post() {
+export function Post(props) {
   return (
     <article className={styles.post}>
       <header>
@@ -10,7 +10,7 @@ export function Post() {
             alt="perfil-foto"
           />
           <div className={styles.authorInfo}>
-            <strong>Matheus Frade</strong>
+            <strong>{props.author}</strong>
             <span>Web Developer</span>
           </div>
         </div>
@@ -32,6 +32,13 @@ export function Post() {
           <a href="#">#nlw {""}</a> <a href="#">#rocketseat </a>
         </p>
       </div>
+      <form className={styles.commentForm}>
+        <strong>Deixe seu feedback</strong>
+        <textarea placeholder="deixe seu comentario" />
+        <footer>
+          <button type="submit">Publicar</button>
+        </footer>
+      </form>
     </article>
   );
 }
